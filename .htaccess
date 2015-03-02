@@ -1,0 +1,5 @@
+DirectoryIndex index.cgi index.html /403.html
+<Files .git>
+    Deny from all
+</Files>
+

@@ -1,0 +1,151 @@
+@charset "utf-8";
+@import url(http://fonts.googleapis.com/css?family=Inconsolata:400,700);
+
+* {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    font-size: 16px;
+    font-family: inherit;
+    text-align: left;
+    text-decoration: none;
+    line-height: 1.5em;
+    background: transparent;
+    color: #221;
+    border: none;
+}
+
+body {
+    margin: 32px;
+    font-family: Verdana, Arial, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+    background: #fff;
+}
+
+p {
+    margin: 8px 0;
+}
+
+a {
+    color: #36c;
+}
+
+a:hover {
+    color: #c63;
+    text-decoration: underline;
+}
+
+ul {
+    margin: 16px 8px;
+    list-style: circle outside;
+}
+
+ol {
+    margin: 16px 8px;
+    list-style: decimal outside;
+}
+
+li {
+    margin: 0.6em;
+}
+
+table {
+    margin: 12px 8px;
+    border-collapse: collapse;
+}
+
+th {
+    padding: 12px 8px;
+    border: solid 1px #ace;
+    background: #d7e7ff;
+}
+
+td {
+    padding: 12px 8px;
+    border: solid 1px #ace;
+    background: #fff;
+}
+
+pre {
+    margin: 16px 12px;
+    padding: 8px 16px;
+    border: solid 1px #ace;
+    display: block;
+    font-family: "Inconsolata", monospace;
+    background: #d7e7ff;
+}
+
+body header {
+    margin: 0 0 20px;
+    padding: 10px;
+    border-bottom: solid 6px #445;
+}
+
+body header h1 {
+    font-size: 180%;
+}
+
+body nav {
+    margin 20px 0;
+    padding: 0 10px;
+}
+
+body article {
+    margin: 20px 0;
+    padding: 0 10px;
+}
+
+body article h1 {
+    margin: 24px 0;
+    font-size: 160%;
+    border-bottom: solid 2px #334;
+}
+
+body section {
+    margin: 0 8px;
+}
+
+body section h2 {
+    margin: 24px 0;
+    font-size: 140%;
+    border-bottom: solid 1px #778;
+}
+
+body section h3 {
+    margin: 20px 0;
+    font-size: 120%;
+    border-bottom: solid 1px #bbc;
+}
+
+body footer {
+    margin: 20px 0 0;
+    padding: 10px;
+    border-top: solid 6px #445;
+}
+
+span.stdout {
+    color: #291;
+}
+
+span.prompt {
+    color: #00c;
+}
+
+span.achievements-me {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+span.achievements-title {
+    font-weight: bold;
+}
+
+span.achievements-book {
+    color: #611;
+    font-style: italic;
+}
+
+span.achievements-important {
+    color: #d33;
+    font-weight: bold
+}
+

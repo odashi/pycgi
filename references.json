@@ -1,0 +1,15 @@
+{
+	"foo2014bar": {
+		"type": "inproceedings",
+		"language": "en",
+		"title": "Title of the paper",
+		"author": ["Your Name", "Another Author", "John Smith"],
+		"booktitle": "Conference Name",
+		"address": "City, Country",
+		"month": "Month",
+		"year": 20XX,
+		"remarks": {
+			"en": "Acceptance rate: XX% (estimated)"
+		}
+	},
+}
